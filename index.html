@@ -1,1 +1,128 @@
-<title>Computing Links</title>
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+
+    <title>Computing Links</title>
+
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/main.css' rel='stylesheet'>
+  </head>
+
+  <body>
+
+    <nav class='navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top'>
+      <h3 class='navbar-brand'>Computing Links</h3>
+    </nav>
+
+    <div class='container'>
+
+      <div class='main'>
+        <h1>Computing and (Python) Programming Resources</h1>
+        <br/>
+
+        <div class='resource-block'>
+          <h3>Interactive Books</h3>
+          <ul>
+            <li>
+              <a target='_blank' href='http://interactivepython.org/courselib/static/thinkcspy/index.html'>How to Think like a Computer Scientist</a>
+              <p>An exceptional introduction to computer programming concepts in Python.
+              <br/>If you are unsure of where to start your journey, you cannot go wrong here.</p>
+            </li>
+            <li>
+              <a target='_blank' href='https://www.cs.hmc.edu/csforall/index.html'>CS for All</a>
+              <p>An accessible general introduction to Computer Science with problem solving examples in Python.</p>
+            </li>
+            
+            <li>
+              <a target='_blank' href='http://interactivepython.org/courselib/static/pythonds/index.html'>Problem Solving with Algorithms and Data Structures Using Python</a>
+              <p>Rewarding read for those wanting to sharpen their CS and programming skills.<br/>
+              More thorough than <i>CS for All</i> and assumes working knowledge of Python.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class='resource-block'>
+          <h3>Wikipedia Articles</h3>
+          <ul>
+            <li><a target='_blank' href='https://en.wikipedia.org/wiki/Computer'>Computer</a></li>
+            <li><a target='_blank' href='https://en.wikipedia.org/wiki/Computer_programming'>Computer Programming</a></li>
+            <li><a target='_blank' href='https://en.wikipedia.org/wiki/Python_(programming_language)'>Python (Programming Language)</a></li>
+            <li><a target='_blank' href='https://en.wikipedia.org/wiki/Boolean_algebra'>Boolean Algebra</a></li>
+            <li><a target='_blank' href='https://en.wikipedia.org/wiki/Discrete_mathematics'>Discrete Mathematics</a></li>
+            <li><a target='_blank' href='https://en.wikipedia.org/wiki/Mathematical_logic'>Mathematical Logic</a></li>
+          </ul>
+        </div>
+
+        <div class='resource-block'>
+          <h3>Official Python Resources</h3>
+          <ul>
+            <li><a target='_blank' href='https://www.python.org/'>Main Site</a></li>
+            <li><a target='_blank' href='https://wiki.python.org/moin/Python2orPython3'>Python 2 or Python 3?</a></li>
+            <li><a target='_blank' href='https://www.python.org/downloads/'>Downloads</a></li>
+            <li><a target='_blank' href='https://docs.python.org/3/tutorial/index.html'>The Python Tutorial</a></li>
+            <li><a target='_blank' href='https://docs.python.org/3/reference/index.html'>Python Language Reference</a></li>
+          </ul>
+        </div>
+
+        <div class='resource-block'>
+          <h3>Youtube Videos</h3>
+          <ul>
+            <li><a target='_blank' href='https://www.youtube.com/playlist?list=PLB2BE3D6CA77BB8F7'>MIT 6.00SC Introduction to Computer Science and Programming</a></li>
+          </ul>
+        </div>
+
+        <div class='resource-block'>
+          <h3>Tools and Systems</h3>
+          <ul>
+            <li>
+              <a target='_blank' href='https://pypi.python.org/pypi'>PyPI - The Python Package Index</a>
+              <p><i>The</i> Python library repository.</p>
+            </li>
+            <li>
+              <a target='_blank' href='https://git-scm.com/'>Git</a>
+              <p>A distributed source code version control system.</p>
+            </li>
+            <li>
+              <a target='_blank' href='http://ipython.org/'>IPython/Jupyter</a>
+              <p>A robust interactive shell with support for visualizations and GUIs used by the scientific computing community.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class='resource-block'>
+          <h3>Computing/Programming Resources</h3>
+          <ul>
+            <li>
+              <a target='_blank' href='http://stackoverflow.com/'>StackOverflow</a>
+              <p>The largest programming Q&A community and resource on the web.</p>
+            </li>
+            <li>
+              <a target='_blank' href='http://github.com'>Github</a>
+              <p>Github is the web's largest source code hosting service.  If you want a library's source code, it's likely here.</p>
+            </li>
+            <li>
+              <a target='_blank' href='http://news.ycombinator.com'>Hacker News</a>
+              <p>Y Combinator's popular news board for technology-related articles.<br/>
+              Warning: like any aggregator, comment sections potentially contain explicit/hate speech.</p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <script src='js/jquery-3.1.1.min.js'></script>
+    <script src='js/tether.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script>
+    $(document).ready(function(){
+      $('.navbar').click(function() {
+          $('html,body').animate({ scrollTop: 0 }, 'slow');
+          return false;
+        });
+    });
+    </script>
+  </body>
+</html>
